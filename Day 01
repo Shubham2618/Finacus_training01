@@ -10,11 +10,12 @@ creating a basic webpage
 <body>
 
 <p>
-<br>HERE IS THE LIST OF TOP SONGS</br>
-<a> Tap to listen songs</a>
+<br>HERE IS THE LIST OF TOP SONGS </p><br>
+<a href="Tap to listen songs.html">Tap to listen songs</a>
   </p>
 <ul>
 <li>STAY</li>
+<img src="STAY.jpg">
 <ul>
 <li>BY JUSTIN BIEBER & THE KID LAROI</li>
 </ul>
@@ -24,3 +25,27 @@ creating a basic webpage
 </body>
 	
 </html>
+
+
+
+ADDING AUDIO IN THE LINKED WEB PAGE
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Tap to listen songs</title>
+   </head>
+	
+   <body>
+      <p>PLAY TOP SONGS<br />
+        STAY 
+         </p>
+         <audio controls>
+             <source src="audios/STAYMP3.mp3" type="audio/mpeg">
+         </audio>
+
+   </body>
+	
+</html>
+
