@@ -44,6 +44,10 @@ ADDING AUDIO IN THE LINKED WEB PAGE
          <audio controls>
              <source src="audios/STAYMP3.mp3" type="audio/mpeg">
          </audio>
+	 <P>MUSIC VIDEO</P><br/>
+         <video controls>
+             <source src="audios/STAYVIDEO.mp4" type="video/mp4">
+         </video>
 
    </body>
 	
