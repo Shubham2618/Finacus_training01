@@ -1,0 +1,22 @@
+creating a basic webpage
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>SPOTIFY.COM</title>
+</head>
+<h1>TOP SONGS OF THE WEEK</h1>
+  
+<body>
+
+<p>HERE IS THE LIST OF TOP SONG</p>
+<ul>
+<li>STAY</li>
+<ul>
+<li>BY JUSTIN BIEBER & THE KID LAROI</li>
+</ul>
+<li>MERCY</li>
+<li>COPINES</li>
+</body>
+	
+</html>
