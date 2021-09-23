@@ -17,8 +17,11 @@
       <label> Surname:
           <input type="text">
       </label>
+
+      <label for="EMAIL">EMAIL</label>
+          <input id="email" type="email" name="email">
       
-      <input type="SUBMIT" value="SUBMIT">
+    <input type="SUBMIT" value="SUBMIT">
   </form>
 
-   </body>
+    </body>
