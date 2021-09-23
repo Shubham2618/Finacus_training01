@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>FITNESS</title>
+   </head>
+
+   <body>
+       <!--This is where the article begins-->
+   <header>PHYSICAL FITNESS</header>
+      <p><span>Physical fitness</span> is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities. Physical fitness is generally achieved through proper nutrition</p>
+  <form>
+      <label> Firstname:
+          <input type="text">
+      </label>
+
+      <label> Surname:
+          <input type="text">
+      </label>
+      
+      <input type="SUBMIT" value="SUBMIT">
+  </form>
+
+   </body>
