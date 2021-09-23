@@ -20,6 +20,13 @@
 
       <label for="EMAIL">EMAIL</label>
           <input id="email" type="email" name="email">
+
+          <label for="yourGoal">yourGoal</label>
+          <select id="youeGoal" name="yourGoal">
+              <option value="increaseWeight">IncreaseWeight</option>
+              <option value="maintainWeight">MaintainWeight</option>
+              <option value="decreaseWeight">DecreaseWeight</option>
+          </select>
       
     <input type="SUBMIT" value="SUBMIT">
   </form>
