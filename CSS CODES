@@ -1,0 +1,19 @@
+ <head>
+      <title>FITNESS</title>
+      <link rel="stylesheet" href="css files/css1.css">
+   </head>
+   
+   CSS FILE
+   
+ p {
+    color:blue;
+    text-align: center;
+}
+
+label{
+    color: blueviolet;
+}
+
+header{
+    background-color: red;
+}
