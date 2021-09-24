@@ -35,44 +35,88 @@
 
 CSS FILE CODE
 html {
-    background-color: #FFF;
-  }
-  
-  .container {
-    width: 940px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .content-area {
-    border-top: 3px solid #000;
-    border-bottom: 3px solid #000;
-  }
-  
-  .main-area {
-    width: 66%;
-    float: left;
-  }
-  
-  .sidebar {
-    width: 34%;
-    float: left;
-  }
-  
-  .fix {
-    clear: both;
-  }
-  
-  .group:before,
-  .group:after {
-    content: "";
-    display: table;
-  }
-  
-  .group:after {
-    clear: both;
-  }
-  
-  .group {
-    zoom: 1;
-  }
+  background-color: lightcoral;
+}
+
+body {
+  font-family:  Calibri, sans-serif;
+  font-size: 80%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: olive;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 145%;
+}
+
+header p {
+  margin: 0;
+}
+
+.content-area {
+  border-top: 3px solid #e5e9dc;
+  border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+  width: 66%;
+  float: left;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 34%;
+  float: left;
+  background-color: #e5e9dc;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: 85%;
+}
+
+footer {
+  text-align: center;
+  font-size: 85%;
+  color: #999;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.fix {
+  clear: both;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
