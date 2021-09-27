@@ -2,18 +2,16 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
-<script src="https://malsup.github.io/jquery.cycle2.js"></script>
-<script src="http://learnwebcode.github.io/declarativeToggle/js/jquery.declarativeToggle.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<script type="text/javascript" src="js/cycle2.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<link href="css files/css5new.css" rel="stylesheet">
 
 <header class="section">
 
   <!-- container -->
   <div class="container">
-    <h1>Website Title</h1>
-    <p class="hide-small">Website slogan included here.</p>
-
-    <span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+    <h1>ROYAL ENFIELD</h1>
+    <p class="hide-small">FEEL ROYAL.</p>
 
     <nav class="site-nav">
       <ul class="group">
@@ -39,7 +37,7 @@
     <div class="row">
 
       <!-- col -->
-      <div class="col col-md-8 main-area push-down-sm">
+      <div class="col col-md-8 push-down-sm">
 
         <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
 
@@ -49,66 +47,55 @@
           <span class="cycle-pager"></span>
 
           <div class="slide">
-            <img src="https://learnwebcode.github.io/Web-Design-for-Beginners/bee.jpg" alt="Bee">
+            <img src="Royal-Enfield-Hunter-350-image.jpg" alt="HUNTER 350">
 
             <div class="slide-text">
-              <h3>Bee Title Here!</h3>
-              <p>This is the caption or descriptive text for the bee slide. <a href="#" class="btn-a">Call to action!</a> </p>
+              <h3>NEW BULLET HUNTER 350!</h3>
+              <p>PRICE Rs. 1.84 - 2.15 Lakh. <a href="#" class="btn-a">Call to action!</a> </p>
             </div>
 
           </div>
 
           <div class="slide">
-            <img src="https://learnwebcode.github.io/Web-Design-for-Beginners/duck.jpg" alt="Duck">
+            <img src="classic250.jpg" alt="CLASSIC 350">
 
             <div class="slide-text">
-              <h3>Duck Title Here!</h3>
-              <p>This is the caption or descriptive text for the duck slide.</p>
+              <h3>NEW CLASSIC 350</h3>
+              <p>PRICE Rs. 1.38 - 1.60 Lakh.</p>
             </div>
 
           </div>
 
           <div class="slide">
-            <img src="https://learnwebcode.github.io/Web-Design-for-Beginners/squirrel-slideshow.jpg" alt="Squirrel">
+            <img src="REhimalayan.jpg" alt="HIMALAYAN">
 
             <div class="slide-text">
-              <h3>Squirrel Title Here!</h3>
-              <p>This is the caption or descriptive text for the squirrel slide.</p>
+              <h3>NEW HIMALAYAN</h3>
+              <p>PRICE Rs. 2.10 - 2.17 Lakh</p>
             </div>
 
           </div>
 
         </div>
 
-        <h2>Important Text</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <span data-toggle-target=".full-text"
-            data-toggle-text="Hide the full text..." class="toggle-btn read-more">Read the full text...</span></p>
+        <p>Royal Enfield bikes price starts at Rs. 1.38 Lakh for Bullet 350 and goes upto Rs. 3.20 Lakh for Continental GT 650. In total Royal Enfield sells 6 new bike models powered by Petrol Engines only. Royal Enfield Classic 350 is among the top Cruiser bikes in India . Apart from this Royal Enfield is planning to launch 3 upcoming bikes in India which includes Hunter 350, Roadster 650 and Shotgun. Select a Royal Enfield bike to know the latest price, offers at dealer showroom in your city, specifications, pictures, mileage, user reviews from bike owners and unbiased reviews by our auto experts.</p>
 
-        <!-- full-text -->
-        <div class="full-text">
-          <h2>Full Text</h2>
-
-          <p><strong>This is the full text</strong>, lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-
-          <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <!-- /full-text -->
+        <p>Royal Enfield is the oldest motorcycle brand to be in continuous production, with its first bike rolling off the line way back in 1901. Now based in Chennai, it's owned by the Eicher Group, and has witnessed something of a resurgence in recent times. This growth has allowed it to step outside its comfort zone of single-cylinder modern classics and try its hand at bikes like the Himalayan and 650 twins, both of which have been rather successful projects. For the future, the 346cc UCE motor has been made BS6-compliant, while a new, modern 400-500cc motor is being developed (codenamed J platform) to be the spiritual successor to the current 500cc UCE engine, which will not make it to BS6.</p>
 
       </div>
       <!-- /col -->
 
       <!-- col -->
       <div class="col col-md-4 sidebar">
-        <h3>Sidebar Heading</h3>
-        <p>Sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+        <h3>DETAILED INFORMATION</h3>
+        <p>Royal Enfield Hunter 350 Latest Updates
+            Royal Enfield has been spotted testing the Hunter 350 yet again, this time with various accessories installed.
+            
+            Not long ago, we brought you the news of the Hunter 350 possibly losing out on the bikemaker’s new Tripper pod. But, according to more recent spy shots, it looks like the Hunter will indeed get it. We’ve also got our hands on some other interesting details about the Hunter 350.</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Royal Enfield Classic 350 is a cruiser bike available at a starting price of Rs. 1,84,374 in India. It is available in 5 variants and 11 colours with top variant price starting from Rs. 2,15,118. The Royal Enfield Classic 350 is powered by 349cc BS6 engine which develops a power of 20.2 bhp and a torque of 27 Nm. With both front and rear disc brakes, Royal Enfield Classic 350 comes up with anti-locking braking system. This Classic 350 bike weighs 195 kg and has a fuel tank capacity of 13 liters.</p>
 
-        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-          amet, consectetur adipisicing elit, sed do eiusmod.</p>
+        <p>Royal Enfield Himalayan is a mileage bike available at a starting price of Rs. 2,10,771 in India. It is available in 3 variants and 9 colours with top variant price starting from Rs. 2,18,260. The Royal Enfield Himalayan is powered by 411cc BS6 engine which develops a power of 24.3 bhp and a torque of 32 Nm. With both front and rear disc brakes, Royal Enfield Himalayan comes up with anti-locking braking system. This Himalayan bike weighs 199 kg and has a fuel tank capacity of 15 liters.</p>
       </div>
       <!-- /col -->
 
@@ -121,9 +108,8 @@
 </div>
 
 <footer>
-  <p>&copy; 2017 - This is the footer.</p>
-</footer>
-
+  <p>&copy; 2021 - All Rights Reserved.</p>
+</footer
 
 CSS FILE
 
